@@ -3,7 +3,7 @@
 ## Overview of the analysis
 The purpose of the analysis is use supervised ML (machine learning) models to help predict credit risk in LendingClub’s dataset. LendingClub is a peer-to-peer lending services company.
 
-Resources: [LoanStats_2019Q1.csv](), supervised ML, imbalanced-learn and scikit-learn libraries
+Resources: [LoanStats_2019Q1.csv](https://github.com/IIrazoque/Credit_Risk_Analysis/blob/d35166dbce6ba6f937b788431156c7176d1e84de/LoanStats_2019Q1.csv), supervised ML, imbalanced-learn and scikit-learn libraries
 
 The data we’re dealing with would fall under the “Classification” type and we will create features and target variables to help us label the data. Then split the Dataset into two sets: training dataset (X= features) and testing dataset (AKA y= target) (figure1). We will then use 4 Resampling models to predict credit risk. Lastly Use Ensemble Learners to enhance the predictions. 
 
