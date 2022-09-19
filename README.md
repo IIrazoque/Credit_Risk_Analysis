@@ -32,6 +32,7 @@ Naïve Random Oversampling is randomly selecting the minority class and adding d
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image2.PNG)
  
 Accuracy Score: 65% 
+
 Average f1 Score: 73%
 
 ### SMOTE Oversampling 
@@ -42,6 +43,7 @@ Synthetic minority oversampling technique is when random sampling in increased f
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image3.PNG)
  
 Accuracy Score: 66% 
+
 Average F1 Score: 81%
 
 ### Cluster Centriod Undersampling
@@ -52,6 +54,7 @@ As the name implies were removed data points from the largest class and make thi
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image4.PNG)
  
 Accuracy Score: 66% 
+
 Average F1 Score: 56%
 
 ### SMOTEENN
@@ -62,6 +65,7 @@ The SMOTEENN is the combination of Oversampling and Undersampling. This is accom
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image5.PNG)
  
 Accuracy Score: 65%
+
 Average F1 Score: 72%
 
 Now let’s use another way of making predictions by using Ensemble Learners.
@@ -83,6 +87,7 @@ Figure 7. Balanced Random Forest Classifier Output
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image7.PNG)
  
 Accuracy Score: 68% 
+
 Average F1 Score: 100%
 
 ### Easy Ensemble AdaBoost Classifier
@@ -93,6 +98,7 @@ Adaptive Boosting (AdaBoost for short) feeds off the previous model and evaluate
 ![This is an image]( https://github.com/IIrazoque/Credit_Risk_Analysis/blob/6b44c56bcbf534ef904abda5add448ecdd2c007b/Images/Image8.PNG)
  
 Accuracy Score: 93% 
+
 Average F1 Score: 100%
 
 ### Summary 
